@@ -419,13 +419,51 @@ header {
 }
 
 .employment {
+    
     display: flex;
     justify-content: space-between;
 }
 
 .employment .item {
+    position: relative;
     width: 370px;
 }
+
+.employment-overlay::before {
+    position: absolute;
+    
+}
+.employment-text {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--hero-text-color);
+    background: rgba(47, 48, 58, 0.8);
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+/* .employment-overlay {
+    display: inline-block;
+    position: relative;
+
+    bottom: 0px;
+    width: 100%;
+    height: 20px;
+
+    background-color: #fff;
+} */
 
 /* Our-team */
 .team-section {
