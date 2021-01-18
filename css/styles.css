@@ -25,6 +25,8 @@
         /* цвет фона в хедере (белый) #FFFFFF */
 
 body {
+    padding-top: 80px;
+
     font-family: 'Roboto', sans-serif;
 
     color: var(--primary-text-color);
@@ -74,6 +76,10 @@ p {
 /* Header */
 
 header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
     
     border-bottom: 1px solid var(--background-secondary-color);
 
@@ -396,6 +402,7 @@ header {
 }
 
 /* Employment */
+
 .employment-section {
     padding-top: 0;
     padding-bottom: 94px;
@@ -431,9 +438,9 @@ header {
 
 .employment-overlay::before {
     position: absolute;
-    
 }
-.employment-text {
+
+.employment-overlay {
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -443,7 +450,9 @@ header {
     justify-content: center;
     color: var(--hero-text-color);
     background: rgba(47, 48, 58, 0.8);
-    
+}
+
+.employment-text {
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
