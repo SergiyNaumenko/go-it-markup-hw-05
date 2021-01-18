@@ -13,7 +13,7 @@
 
   <body>
     <!--Шапка сайта-->
-    <header>
+    <header class="page-header">
       <div class="head">
         <nav class="navigation">
           <a class="logo-blue" href="./index.html">Web<span class="logo-black">Studio</span>
@@ -267,5 +267,12 @@
       </div>
       
     </footer>
+    <script>
+      const { height: pageHeaderHeight } = document
+        .querySelector(".page-header")
+        .getBoundingClientRect();
+
+      document.body.style.paddingTop = `${pageHeaderHeight}px`;
+    </script>
   </body>
 </html>
