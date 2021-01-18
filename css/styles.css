@@ -815,15 +815,18 @@ p {
     opacity: 0;
 }
 
-.item:hover .paragraf-text {
+.item:hover .paragraf-text,
+.item:focus .paragraf-text {
     opacity: 1;
 }
 
-.img-overlay:hover::before{
+.img-overlay:hover:before,
+.img-overlay:focus:before {
     opacity: 1;
 }
 
-.img-overlay:before {
+.img-overlay:before,
+.img-overlay:focus {
     display: inline-block;
     content: '';
 
