@@ -402,14 +402,14 @@
 
     </div>
 
-<!--Скріпт для автоматичного підгону хедера-->
+<!--Скріпт для автоматичного підгону хедера та відкривання модалки-->
     <script>
       const { height: pageHeaderHeight } = document
         .querySelector(".page-header")
         .getBoundingClientRect();
 
       document.body.style.paddingTop = `${pageHeaderHeight}px`;
-      <!--Скріпт для відкривання\закривання модалки-->
+
       const refs = {
         openModalBtn: document.querySelector('[data-open-modal]'),
         closeModalBtn: document.querySelector('[data-close-modal]'),
