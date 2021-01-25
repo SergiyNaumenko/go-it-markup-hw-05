@@ -795,6 +795,8 @@ p {
 
     background-color:var(--accent-color-card);
 
+    transition: transform var(--animation-duration) var(--animation-type);
+
     transform: translateY(100%);
 }
 
