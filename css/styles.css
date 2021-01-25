@@ -804,6 +804,10 @@ p {
     transform: translateY(0);
 }
 
+.offers-item-link:focus .portfolio-overlay {
+    transform: translateY(0);
+}
+
 .offers-list .item {
     width: 370px;
 
