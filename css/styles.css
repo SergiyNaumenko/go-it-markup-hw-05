@@ -198,7 +198,7 @@ p {
     transition: opacity var(--animation-duration) var(--animation-type);
 }
 .current.header-link:after,
-.header-link:hover:after{
+.header-link:hover:after {
     opacity: 1;
     
 }
