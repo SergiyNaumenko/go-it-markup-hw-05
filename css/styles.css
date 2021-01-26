@@ -143,9 +143,6 @@ p {
     display: flex;
     align-items: center;
 }
-.site-nav .item {
-    display: inline-flex;
-}
 
 .site-nav > .item:not(:last-child) {
     margin-right: 40px;
@@ -184,7 +181,7 @@ p {
     content: '';
 
     position: absolute;
-    bottom: -10px;
+    bottom: 0;
     left: 0;
 
     display: block;
