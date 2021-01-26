@@ -200,7 +200,6 @@ p {
 .current.header-link:after,
 .header-link:hover:after {
     opacity: 1;
-    
 }
 
 /* Adrress effect */
@@ -210,6 +209,22 @@ p {
     display: flex;
     align-items: center;
     margin-left: auto;
+}
+
+.adrress{
+    position: relative;
+    display: block;
+    transition: color var(--animation-duration) var(--animation-type);
+}
+
+.adrress::after {
+    content: '';
+    opacity: 0;
+    transition: opacity var(--animation-duration) var(--animation-type);
+}
+
+.adrress:hover:after {
+    opacity: 1;
 }
 
 .adrress-header .adrress,
@@ -805,10 +820,6 @@ p {
 }
 
 .offers-item-link:focus .portfolio-overlay {
-    transform: translateY(0);
-}
-
-.offers-item-link:focus .paragraf-text {
     transform: translateY(0);
 }
 
