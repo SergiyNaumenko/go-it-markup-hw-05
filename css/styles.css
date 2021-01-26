@@ -808,6 +808,10 @@ p {
     transform: translateY(0);
 }
 
+.offers-item-link:focus .paragraf-text {
+    transform: translateY(0);
+}
+
 .offers-list .item {
     width: 370px;
 
@@ -868,8 +872,6 @@ p {
     font-size: 18px;
     line-height: 1.56;
     letter-spacing: 0.03em;
-
-    opacity: 0;
 }
 
 .master-photo:hover .paragraf-text,
