@@ -14,7 +14,7 @@
     --background-head-color: #FFFFFF;
 
     --animation-duration: 250ms;
-    --animation-type: linear;
+    --animation-type: cubic-bezier(0.4, 0, 0.2, 1);
 }          
         /* цвет основного текста (светло-серый)  #757575; */
         /* цвет вторичного текста (заголовки, ближе к черному) #212121; */
@@ -304,9 +304,6 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     margin: 0 auto;
-    
-    
-
 }
 
 .hero-title {
@@ -343,6 +340,10 @@ p {
     border: none;
     color: var(--hero-text-color); 
     background-color: var(--accent-color);
+
+    transition-property: background-color;
+    transition-duration: var(--animation-duration); 
+    transition-timing-function: var(--animation-type);
 }
 
 .button:hover,
@@ -587,6 +588,10 @@ p {
 
     background-color: #FFFFFF;
     color: var(--icon-main-color);
+
+    transition-property: background-color;
+    transition-duration: var(--animation-duration); 
+    transition-timing-function: var(--animation-type);
 }
 
 .icon-social {
@@ -712,6 +717,10 @@ p {
 
     background-color: rgba(255, 255, 255, 0.1);
     color: var(--hero-text-color);
+
+    transition-property: background-color;
+    transition-duration: var(--animation-duration); 
+    transition-timing-function: var(--animation-type);
 }
 
 
@@ -751,6 +760,10 @@ p {
 
     color: var(--title-text-color);
     background-color: var(--background-secondary-color);
+
+    transition-property: background-color;
+    transition-duration: var(--animation-duration); 
+    transition-timing-function: var(--animation-type);
 }
 
 .filter-btn:hover,
