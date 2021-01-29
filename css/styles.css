@@ -99,16 +99,13 @@ p {
     margin: 0 auto;
 }
 
-.mail-svg {
-    margin-right: 10px;
-    width: 16px;
-    height: 12px;
-}
+.mail-svg,
 .phone-svg {
     margin-right: 10px;
-    width: 10px;
-    height: 16px;
 }
+/* .phone-svg {
+    margin-right: 10px;
+} */
 
 .adrress:focus {
     fill: var(--accent-color)
@@ -594,8 +591,6 @@ p {
 }
 
 .icon-social {
-    width: 20px;
-    height: 20px;
     fill: currentColor;
 }
 .position{
@@ -727,9 +722,6 @@ p {
     background-color: rgba(255, 255, 255, 0.1);
     color: var(--hero-text-color);
 
-    /* transition-property: background-color;
-    transition-duration: var(--animation-duration); 
-    transition-timing-function: var(--animation-type); */
     transition: background-color var(--animation-duration) var(--animation-type)
 }
 
@@ -944,13 +936,20 @@ p {
     border-radius: 50%;
     border: 1px solid rgba(0, 0, 0, 0.1);
     background-color: var(--background-head-color);
+    
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .icon-modal-close {
-    width: 11px;
-    height: 11px;
+    fill: currentColor;
+    /* width: 11px;
+    height: 11px; */
 }
+
+/* .icon-modal-close:hover,
+.icon-modal-close:focus {
+    fill: var(--accent-color);
+} */
 
