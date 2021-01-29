@@ -341,9 +341,10 @@ p {
     color: var(--hero-text-color); 
     background-color: var(--accent-color);
 
-    transition-property: background-color;
+    /* transition-property: background-color;
     transition-duration: var(--animation-duration); 
-    transition-timing-function: var(--animation-type);
+    transition-timing-function: var(--animation-type); */
+    transition: background-color var(--animation-duration) var(--animation-type);
 }
 
 .button:hover,
@@ -589,9 +590,7 @@ p {
     background-color: #FFFFFF;
     color: var(--icon-main-color);
 
-    transition-property: background-color;
-    transition-duration: var(--animation-duration); 
-    transition-timing-function: var(--animation-type);
+    transition: background-color var(--animation-duration) var(--animation-type)
 }
 
 .icon-social {
@@ -626,7 +625,9 @@ p {
 
 .client-icon {
     display: flex;
+    justify-content: space-around;
     padding-bottom: 94px;
+    
 }
 
 .list {
@@ -638,6 +639,8 @@ p {
 }
 
 .client-container {
+    width: 170px;
+    height: 90px;
     margin-right: 30px;
 }
 .client-link:focus,
@@ -647,20 +650,26 @@ p {
 }
 
 .client-link {
-    display: block;
-    width: 170px;
-    height: 90px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
     border: 1px solid #afb1b8;
     border-radius: 4px;
-    color: var(--icon-main-color);
     fill: var(--icon-main-color);
+    
+
+    transition-property: var(--accent-color);
+
+    transition-timing-function: var(--animation-type);
 }
 
 .client-svg1 {
-    width: 44px;
-    height: 49px;
-    margin: 20px 63px;
+    
+    /* fill: currentColor; */
 }
+
 /* Футер */
 
 .footer-apendix {
@@ -718,9 +727,10 @@ p {
     background-color: rgba(255, 255, 255, 0.1);
     color: var(--hero-text-color);
 
-    transition-property: background-color;
+    /* transition-property: background-color;
     transition-duration: var(--animation-duration); 
-    transition-timing-function: var(--animation-type);
+    transition-timing-function: var(--animation-type); */
+    transition: background-color var(--animation-duration) var(--animation-type)
 }
 
 
