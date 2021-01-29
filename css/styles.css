@@ -103,9 +103,6 @@ p {
 .phone-svg {
     margin-right: 10px;
 }
-/* .phone-svg {
-    margin-right: 10px;
-} */
 
 .adrress:focus {
     fill: var(--accent-color)
@@ -132,6 +129,7 @@ p {
 }
 
 /* Site-nav */
+
 .navigation {
     display: flex;
     align-items: center;
@@ -169,6 +167,7 @@ p {
 }
 
 /* Оформлення підкреслення в хедері */
+
 .header-link{
     position: relative;
     display: block;
@@ -276,6 +275,7 @@ p {
 }
 
 /* Hero */
+
 .hero {
     padding: 0;
     margin: 0 auto;
@@ -291,7 +291,6 @@ p {
     height: 600px;
     padding-top: 200px;
     padding-bottom: 200px;
-    /* image overlay - це виділив на макеті image overlay і там відобразилося */
     background-image: linear-gradient(
         to right,
         rgba(47, 48, 58, 0.4), 
@@ -321,6 +320,7 @@ p {
 }
 
 /* Button */
+
 .button {
     padding: 10px 32px;
     min-width: 200px;
@@ -338,8 +338,6 @@ p {
     color: var(--hero-text-color); 
     background-color: var(--accent-color);
 
-    /* transition-property: background-color;
-    transition-duration: var(--animation-duration); 
     transition-timing-function: var(--animation-type); */
     transition: background-color var(--animation-duration) var(--animation-type);
 }
@@ -348,9 +346,6 @@ p {
 .button:focus {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
-
-
-
 
 /* Section*/
 
@@ -389,6 +384,7 @@ p {
 }
 
 /* Feature-list */
+
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -515,6 +511,7 @@ p {
 }
 
 /* Our-team */
+
 .team-section {
     background-color: var(--background-secondary-color);
 }
@@ -529,7 +526,6 @@ p {
 .social .distance:not(:last-child) {
     margin-right: 10px;
 }
-
 
 .team-card {
     height: 428px;
@@ -600,10 +596,6 @@ p {
 
 /* Постоянные клиенты */
 
-.client {
-
-}
-
 .client-heading {
     display: block;
     margin-top: 94px;
@@ -658,11 +650,6 @@ p {
     transition-property: var(--accent-color);
 
     transition-timing-function: var(--animation-type);
-}
-
-.client-svg1 {
-    
-    /* fill: currentColor; */
 }
 
 /* Футер */
@@ -725,10 +712,10 @@ p {
     transition: background-color var(--animation-duration) var(--animation-type)
 }
 
-
                 /* Стили для portfolio.html */
 
 /* Butoons */
+
 .portfolio {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -780,7 +767,6 @@ p {
                 /* All offers */
  
 .joboffer {   
-
     width: 1200px;
     padding: 0 15px;
     margin: 0 auto;
@@ -922,7 +908,6 @@ p {
     min-height: 580px;
     min-width: 530px;
     background-color: var(--background-head-color);
-
 }
 
 .modal-close-buttom {
@@ -944,12 +929,7 @@ p {
 
 .icon-modal-close {
     fill: currentColor;
-    /* width: 11px;
-    height: 11px; */
 }
 
-/* .icon-modal-close:hover,
-.icon-modal-close:focus {
-    fill: var(--accent-color);
-} */
+
 
